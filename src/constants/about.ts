@@ -10,7 +10,7 @@ export const aboutInformation = {
   googlescholar:"https://scholar.google.com/citations?user=yfkVSRgAAAAJ&hl=en&oi=ao",
   orcid:        "https://orcid.org/0000-0003-0869-4951",
   researchgate: "https://www.researchgate.net/profile/Advik-Vira?ev=prf_overview",
-  github:       "https://github.com/avira7",
+  github:       "https://github.com/advikvira",
   bio: `I am a <u>physicist</u> with an extensive background in both computational and experimental approaches. 
         I recently defended my Ph.D. in Physics at <strong>Georgia Tech</strong>. 
         My research included Monte Carlo simulations of radiation shielding for 

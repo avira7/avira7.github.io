@@ -12,7 +12,8 @@ export const newsUpdates: NewsUpdate[] = [
 //     url: "https://example.com/research/radiation-shielding",
 //     date: "[03/20/2026]",
 //   },
-  {
+
+{
     title: "Submitted manuscript to JCP on grain charging simulations",
     url: "https://arxiv.org/abs/2602.17332",
     date: "[02/19/2026]",

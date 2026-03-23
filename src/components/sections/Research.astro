@@ -20,6 +20,7 @@ import { researchInformation } from '../../constants/research';
       --accent: #4f8ef7;
       --accent2: rgba(0,0,0,0.07);
       --text: #e8eaf0;
+      --text2: #a1a3a6;
       --muted: #f5f8ff;
     }
 
@@ -47,7 +48,7 @@ import { researchInformation } from '../../constants/research';
     }
     .hero h1 em { font-style: italic; color: var(--accent2); }
     .hero-general {
-      color: var(--muted); /* or any color / variable you want */
+      color: var(--text2); /* or any color / variable you want */
     }
 
     /* ── OVERVIEW IMAGE ── */
@@ -111,12 +112,12 @@ import { researchInformation } from '../../constants/research';
     .accordion-chevron {
       flex-shrink: 0;
       width: 18px; height: 18px;
-      color: var(--muted);
+      color: var(--text2);
       transition: transform 0.35s cubic-bezier(0.23,1,0.32,1), color 0.2s;
     }
     .accordion-item.is-open .accordion-chevron {
       transform: rotate(180deg);
-      color: var(--accent);
+      color: var(--text2);
     }
 
     .accordion-drawer {
@@ -154,19 +155,19 @@ import { researchInformation } from '../../constants/research';
     }
     .drawer-list-item {
       font-size: 0.85rem;
-      color: var(--muted);
+      color: var(--text2);
       line-height: 1.8;
     }
 
     .drawer-text {
-      font-size: 0.85rem; color: var(--muted); line-height: 1.8;
+      font-size: 0.85rem; color: var(--text2); line-height: 1.8;
     }
 
     .drawer-full { grid-column: 1 / -1; }
 
     .drawer-divider {
       grid-column: 1 / -1;
-      height: 1px; background: var(--border);
+      height: 0px; background: var(--border);
     }
 
     .drawer-pills {
@@ -179,7 +180,7 @@ import { researchInformation } from '../../constants/research';
       padding: 0.25rem 0.65rem; border-radius: 100px;
       background: rgba(79,142,247,0.07);
       border: 1px solid rgba(79,142,247,0.18);
-      color: var(--muted);
+      color: var(--text2);
     }
 
     .drawer-link {
@@ -213,10 +214,10 @@ import { researchInformation } from '../../constants/research';
   <div class="accordion-section">
 
     {researchInformation.topics.map((topic) => (
-      <div class="accordion-item is-open" id={`item-${topic.id}`}>
+      <div class="accordion-item" id={`item-${topic.id}`}>
         <div class="accordion-trigger">
           <span class="accordion-title"><em>{topic.id}: </em>{topic.title}</span> 
-          <button class="accordion-chevron-btn" aria-expanded="true" aria-controls={`drawer-${topic.id}`}>
+          <button class="accordion-chevron-btn" expanded="true" aria-controls={`drawer-${topic.id}`}>
             <svg class="accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9l-7 7-7-7"/></svg>
           </button>
         </div>
