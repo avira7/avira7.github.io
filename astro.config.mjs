@@ -3,6 +3,6 @@ import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 
 export default defineConfig({
-  site: 'https://advikvira.github.io',
+  site: 'https://www.advikdvira.com',
   integrations: [react(), tailwind()],
 });
