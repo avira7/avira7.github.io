@@ -1,5 +1,5 @@
 export const aboutInformation = {
-  firstName:    "Advik",
+  firstName:    "Advik D.",
   lastName:     "Vira",
   title:        "Physicist",
   institution:  "Georgia Institute of Technology",
