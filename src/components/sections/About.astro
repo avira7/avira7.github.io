@@ -302,6 +302,15 @@ const sortedNews = newsUpdates
       flex-direction: column;
     }
 
+    .news-inline-link {
+      color: #0000EE;       /* blue */
+      text-decoration: underline;
+      font-weight: inherit;
+    }
+    .news-inline-link:hover {
+      color: #1d4ed8;        /* darker blue on hover */
+    }
+
     .news-content {
       flex: 1;
       display: flex;
@@ -453,26 +462,34 @@ const sortedNews = newsUpdates
 
       
 
-      <!-- News Banner -->
-      <div class="news-banner">
-      <div class="news-banner-header">
-        📰 News Feed
-      </div>
-        <div class="news-content">
-          {sortedNews.map((news, index) => (
-            <div class="news-item" key={news.title}>
-              <p class="banner-text">
-                <strong>{news.date}</strong> — {news.title}
-              </p>
-              {news.url && (
-              <a href={news.url} class="news-read-btn" target="_blank" rel="noreferrer">
-                Read
-              </a>)}
-            </div>
-          ))}
-        </div>
-      </div>
+  <!-- News Banner -->
+  <div class="news-banner">
+    <div class="news-banner-header">
+      📰 News Feed
     </div>
+    <div class="news-content">
+      {sortedNews.map((news, index) => (
+        <div class="news-item" key={news.title}>
+          <p class="banner-text">
+            <strong>{news.date}</strong> —{" "}
+            {news.titleParts
+              ? news.titleParts.map((part, i) =>
+                  part.url
+                    ? <a key={i} href={part.url} target="_blank" rel="noreferrer" class="news-inline-link">{part.text}</a>
+                    : <span key={i}>{part.text}</span>
+                )
+              : news.title
+            }
+          </p>
+          {news.url && (
+            <a href={news.url} class="news-read-btn" target="_blank" rel="noreferrer">
+              Read
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
 
   </div>
 
