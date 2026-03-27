@@ -26,7 +26,7 @@ export const researchInformation = {
                  titanium is found in a trivalent valence state as opposed to the tetravalent state. 
                  The reduced valence state only occurs in oxygen-poor environments, which we estimated 
                  using the abundance of trivalent titanium.`,
-          links: [{ href: "https://www.researchsquare.com/article/rs-7190245/v1?redirect=/article/rs-7190245", label: "Nature Communicatinos (2026) - high-Ti Ilmenite", external: true }],
+          links: [{ href: "https://www.nature.com/articles/s41467-026-69770-w", label: "Nat. Comm. (2026) - Trivalent Ti in Lunar Ilmenite", external: true }],
         },
       ],
       methods: ["Focused Ion Beam", "Transmission Electron Microscopy", "STEM/EELS", "Hyperspy", "Noise Reduction Techniques"],

@@ -9,6 +9,21 @@ export interface NewsUpdate {
 export const newsUpdates: NewsUpdate[] = [
   {
     titleParts: [
+      { text: "The Conversation brief on ", url: null },
+      { text: "trivalent Ti lunar ilmenite manuscript in Nat. Comm.", url: "https://www.nature.com/articles/s41467-026-69770-w" },
+    ],
+    url: "https://theconversation.com/new-study-measures-titanium-in-apollo-rock-to-uncover-moons-early-chemistry-278721",
+    date: "[03/27/2026]",
+  },
+
+  {
+    title: "Georgia Tech story on trivalent Ti lunar ilmenite manuscript in Nat. Comm.",
+    url: "https://cos.gatech.edu/news/38-billion-year-old-titanium-clue-sheds-new-light-moons-early-chemistry",
+    date: "[03/27/2026]",
+  },
+
+  {
+    titleParts: [
       { text: "KSCO manuscript in Nat. Comm.", url: "https://www.nature.com/articles/s41467-025-67394-0" },
       { text: " received the 2026 Sigma Xi Best Paper Award", url: null },
     ],
@@ -21,8 +36,7 @@ export const newsUpdates: NewsUpdate[] = [
     date: "[02/19/2026]",
   },
   {
-    title: "Manuscript accepted in Nat. Comm. on high-Ti lunar ilmenite",
-    url: "https://www.researchsquare.com/article/rs-7190245/v1?redirect=/article/rs-7190245",
+    title: "Manuscript accepted in Nat. Comm. on trivalent Ti lunar ilmenite",
     date: "[02/09/2026]",
   },
   {
