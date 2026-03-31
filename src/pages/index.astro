@@ -12,6 +12,7 @@ import { aboutInformation } from '../constants/about';
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="xLMTYiV5PxCqZjTz8oTogsEpn155XRu_ouGudAbDwBM" />
+  <meta name="description" content={aboutInformation.bioPlain} />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HN4SQRP2M3"></script>
@@ -22,6 +23,8 @@ import { aboutInformation } from '../constants/about';
 
     gtag('config', 'G-HN4SQRP2M3');
   </script>
+
+  <script type="application/ld+json" set:html={JSON.stringify(aboutInformation.jsonLd)} />
 
   <title>{aboutInformation.firstName} {aboutInformation.lastName} - About Me</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
