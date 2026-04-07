@@ -37,23 +37,29 @@
 ├── README.md
 ├── astro.config.mjs
 ├── dist
+│   ├── CNAME
 │   ├── _astro
 │   │   ├── client.T9fhd2RU.js
-│   │   └── index.02218aKq.css
+│   │   └── index.DYr0bc_C.css
 │   ├── attachments
 │   │   ├── advikvira.jpg
 │   │   ├── completeCV.pdf
-│   │   └── overview-v2.png
+│   │   └── overview-v4.png
 │   ├── index.html
-│   └── robots.txt
+│   ├── robots.txt
+│   └── sitemap.xml
+├── generate-sitemap.js
 ├── package-lock.json
 ├── package.json
+├── pnpm-lock.yaml
 ├── public
+│   ├── CNAME
 │   ├── attachments
 │   │   ├── advikvira.jpg
 │   │   ├── completeCV.pdf
-│   │   └── overview-v2.png
-│   └── robots.txt
+│   │   └── overview-v4.png
+│   ├── robots.txt
+│   └── sitemap.xml
 ├── src
 │   ├── components
 │   │   ├── FluidNavigation.tsx
@@ -68,6 +74,7 @@
 │   ├── constants
 │   │   ├── about.ts
 │   │   ├── news.ts
+│   │   ├── publications.ts
 │   │   └── research.ts
 │   ├── pages
 │   │   └── index.astro
