@@ -38,7 +38,7 @@ export const newsUpdates: NewsUpdate[] = [
     date: "[03/23/2026]",
   },
   {
-    title: "Submited manuscript on grain charging simulations to J. Comput. Phys.",
+    title: "Submitted manuscript on grain charging simulations to J. Comput. Phys.",
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6352017",
     date: "[02/19/2026]",
   },

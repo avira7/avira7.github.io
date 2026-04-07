@@ -13,8 +13,8 @@ export const researchInformation = {
         {
           label: "Overview",
           text: `The Moon serves as a natural archive of early geological history of the 
-                  Earth-Moon systen. Unaltered lunar material offers a window into the events 
-                  that occured nearly four billion years ago. Using advanced electron microscopy 
+                  Earth-Moon system. Unaltered lunar material offers a window into the events 
+                  that occurred nearly four billion years ago. Using advanced electron microscopy 
                   and spectroscopy techniques, we can characterize the structure and composition 
                   of lunar minerals at an atomic level to uncover chemical environment present on 
                   the ancient Moon.`,
@@ -49,7 +49,7 @@ export const researchInformation = {
         {
           label: "Topic 2",
           text: `As charged particles irradiate the surface of airless bodies, the minerals accumulate 
-                  the charge and can eventually lead to a respulsive force between mineral grains.  
+                  the charge and can eventually lead to a repulsive force between mineral grains.  
                   We simulate the charge accumulation within intergrain micro-cavities using a kinetic 
                   Monte Carlo approach by connecting the microscopic scattering events to the macroscopic 
                   surface charge. `,
@@ -91,14 +91,14 @@ export const researchInformation = {
       
     },
     {
-      id: "Space Instrumentation",
-      title: "Time-of-Flight Mass Spectrometry",
+      id: "Space Instruments",
+      title: "Magnetospheric Particle Distributions",
       sections: [
         {
           label: "Overview",
           text: `Space plasma instruments typically use a time-of-flight (TOF) mass spectrometers 
                   to measure the compositions of charge particles in solar, space, and planetary science. 
-                  A noteable TOF instrument is the NASA Van Allen Probes instrument called HOPE (Helium, Oxygen, Proton, and Electron), 
+                  A notable TOF instrument is the NASA Van Allen Probes instrument called HOPE (Helium, Oxygen, Proton, and Electron), 
                   developed at Los Alamos National Laboratory, which successfully measured the particle 
                   fluxes in Earth's radiation belts. `,
         },
@@ -106,7 +106,7 @@ export const researchInformation = {
           label: "Impact",
           text: `We developed models to predict TOF mass spectrometer resolution and characterized ultrathin 
                   graphene foils for next-generation detectors, improving calibration fidelity for magnetospheric 
-                  particle measurements while exploring graphene’s potential. `,
+                  particle measurements while exploring graphene's potential. `,
           links: [{ href: "https://doi.org/10.1029/2020JA028862", label: "JGR (2021) — Bayesian model of HOPE", external: true },
                  { href: "https://doi.org/10.1029/2020JA027971", label: "JGR (2020) — Resolution of TOF Mass Spectrometry", external: true },
                  { href: "https://doi.org/10.1063/1.5134768", label: "RSI (2020) — Angular Scattering of Graphene Foils", external: true }],
