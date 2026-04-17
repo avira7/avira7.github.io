@@ -4,7 +4,7 @@ export interface Publication {
   id: number;
   venue: string;
   year: number;
-  status: 'published' | 'review' | 'submitted' | 'notpeer';
+  status: 'published' | 'review' | 'submitted' | 'notpeer'| 'accepted';
   title: string;
   authors: string; // use <strong>Name<strong> for bold/accent styling
   url?: string;
